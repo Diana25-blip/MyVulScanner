@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>XSS Scanner</title>
+</head>
+<body>
+  <h2>🔍 XSS Vulnerability Scanner</h2>
+  <form method="post">
+    <label>Target URL:</label>
+    <input type="text" name="url" required placeholder="http://example.com/page.php?q=">
+    <button type="submit">Scan for XSS</button>
+  </form>
+
+  {% if result %}
+    <h3>Result:</h3>
+    <p>{{ result }}</p>
+  {% endif %}
+</body>
+</html>
