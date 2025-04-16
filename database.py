@@ -28,3 +28,5 @@ def get_scan_results():
     return results
 
 init_db()
+
+
