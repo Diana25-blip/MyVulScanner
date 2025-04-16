@@ -1,4 +1,5 @@
 import nmap
+import requests
 
 def scan_ports(target):
     nm = nmap.PortScanner()
@@ -15,7 +16,6 @@ def scan_ports(target):
     return results
 
 
-import requests
 
 def get_vulnerabilities(service, version):
     url = f"https://vulners.com/api/v3/burp/software/?software={service}&version={version}"
@@ -27,5 +27,10 @@ def get_vulnerabilities(service, version):
             vulnerabilities.append({"CVE": vuln['id'], "description": vuln['title']})
 
     return vulnerabilities
+
+
+
+
+
 
 
