@@ -15,3 +15,8 @@ def check_xss(url):
     if payload in res.text:
         return f"Potential XSS found at {url}"
     return "No XSS detected."
+
+
+
+
+
