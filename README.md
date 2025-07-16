@@ -2,8 +2,6 @@
 
 Welcome to **MyVulScanner**, a web-based security tool that combines a **Port Scanner** and an **XSS (Cross-Site Scripting) vulnerability scanner** into one simple interface. This project is aimed at ethical hacking and penetration testing for educational or authorized security purposes.
 
----
-
 ## Features
 
 **Port Scanner**
@@ -16,10 +14,8 @@ Welcome to **MyVulScanner**, a web-based security tool that combines a **Port Sc
   - Detects unsanitized input behavior
   - Designed to help web developers and testers strengthen web app security
 
----
-
-## 🌐 Live Demo
-
+##  Live Demo
+https://diana25-blip.github.io/MyVulScanner/
 
  Technologies Used
 
